@@ -27,7 +27,7 @@ async function run() {
         })
     });
 
-    model.save('file://./fist')
+    model.save('file://./models/mnist')
 
     
 

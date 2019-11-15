@@ -6,6 +6,7 @@
   },
   "scripts": {
     "train:mnist": "node ./mnist-train.js",
-    "download:mnist": ""
+    "preduction:mnist": "node ./mnist-prediction.js && kaggle competitions submit -c digit-recognizer -f ./results/mnist.csv -m 'submit from tfjs'",
+    "download:mnist": "cd data && mkdir mnist && cd mnist && kaggle competitions download -c digit-recognizer && tar -xvf digit-recognizer.zip && rm digit-recognizer.zip"
   }
 }
