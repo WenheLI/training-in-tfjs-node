@@ -6,6 +6,9 @@ This repo is for Kaggle competition in tfjs-node.
 
 ## Usage
 ``npm install`` to install essential node dependency.
+
 ``npm run download:mnist`` for donwload mnist dataset.
+
 ``npm run train:mnist`` for train model.
+
 ``npm run prediction:mnist`` for prediction and upload results to Kaggle.
