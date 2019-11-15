@@ -2,7 +2,7 @@
 
 ## Brief
 This repo is for Kaggle competition in tfjs-node. 
-``Kaggle`` commonad line, and ``tar`` are required.
+``Kaggle`` commonad line, and ``unzip`` are required.
 
 ## Usage
 ``npm install`` to install essential node dependency.
