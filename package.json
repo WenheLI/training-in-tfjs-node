@@ -3,5 +3,9 @@
     "@tensorflow/tfjs-node": "^1.3.0",
     "@tensorflow/tfjs-node-gpu": "^1.3.0",
     "csv-writer": "^1.5.0"
+  },
+  "scripts": {
+    "train:mnist": "node ./mnist-train.js",
+    "download:mnist": ""
   }
 }
